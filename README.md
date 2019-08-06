@@ -56,7 +56,7 @@ workon {{project_name}}   # reactivate existing environment
 
 Clone GitHub Project,
 ```bash
-git@github.com:saadmk11/banking-system.git
+https://github.com/Dozy0/project.git
 
 cd banking-system
 ```
@@ -76,22 +76,3 @@ Run the web application locally,
 python manage.py runserver # 127.0.0.1:8000
 ```
 
-Create Superuser,
-```bash
-python manage.py createsuperuser
-```
-
-Run Celery
-(Different Terminal Window with Virtual Environment Activated)
-```bash
-celery -A bankingsystem worker -l info
-
-celery -A bankingsystem beat -l info
-```
-
-## Images:
-![alt text](https://i.imgur.com/QZwaEHX.png)
-#
-![alt text](https://i.imgur.com/HTcqWcw.png)
-#
-![alt text](https://i.imgur.com/HHsmJVD.png)
